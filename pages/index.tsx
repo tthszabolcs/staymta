@@ -1,6 +1,7 @@
 import { Container, Text, Group, Paper, Stack, Flex } from "@mantine/core";
 import { NextPage } from "next";
 import { useContext } from "react";
+import { apiCall } from "../components/api";
 import { gradientText } from "../components/styles";
 import { User } from "./_app";
 
